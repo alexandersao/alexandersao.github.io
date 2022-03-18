@@ -1,0 +1,157 @@
+  <!-- <header>menu de navegacion,logo,redes socoales </header> 
+       
+        <main> body</maid>
+           
+            <footer>pie  de la pagina</footer>
+
+            section:es un contenedor generico que agrupa contenido que
+            esta relacionado. cuando creamos bloques cuyo contenido es
+            parte de un bloque total usaremos section.
+
+            article:es un contenedor generico que agrupa contenido
+            independiente, es decir, podemos leer ese fragmento en
+            cualquier otro sitio y tendria sentido por si mismo.
+        
+            aside:se utiliza para representar contenido relacionado pero
+            que no forma parte del contenido principal
+        
+        span->elementos de linea
+        em-> emphasis
+        strong->mas enfasis
+        small-> menos enfasis que el texto normal
+        br-> forzar un salto de linea
+        wbr -> se usa para representar un contenido de hora/fecha
+        i->italic
+        b->bold
+        u->underline
+        sup->superindice
+        sub->subindice
+
+        class-> este atributo se usa para dar estilos a traves de class
+
+          id-> es un identificador unico que se utiliza para seleccionar
+          el elemento desde js y para hacer navegacion a traves de anclas
+
+          title-> es un atributo que ayuda a la accesibilidad mostrando
+          una descripcion del elemento al que pertenece
+
+          data-> es un atributo que nos permite guardar algun valor en la 
+          etiqueta HTML
+
+         enlaces-> <a href="/">ir </a>
+        target="_blank"->nueva pestaña
+        download->descargar
+
+        ul-> unordered list: se utilizan cuando el orden de 
+        los elementos no influye(lista de la compra)
+
+        ol-> ordered list: se utilizan cuando el orden de 
+        los elementos es importante (top 10)
+
+        dl-> definition list: se utilizan para hacer una
+        lista de definiciones (diccionario)
+
+video-33
+        captiom->titulo de la tabla
+        tabla -> etiqueta que encierra una tabla
+        tr-> tabla row, etiqueta que construye una fila
+        td-> tabla datta, etiqueta que construye una celda
+tbody->
+tfoot->
+rowspan: silve para que una celda ocupen mas de
+una fila, el valor por defecto es 1
+
+colspa silve para que una celda ocupen mas de 
+una columna, el valor por defecto es 1
+
+cuando necesitamos seleccionar una columna, tenemmos
+la etiqueta colgroup
+truco. el numero de celdas dentro de un tr establecera el numero
+de columnas de la tabla
+
+
+video 37
+address-> se utiliza para aportar informacion de contacto para el article 
+mas cercano o para todo el body
+
+blockquote-> se utiliza para marcar las citas a otros autores o
+documentos.
+se puede incluir el atributo cite para poner un enlace al documentos
+ariginal o fuente
+
+pre-> se utiliza para tener codigo preformateado  que necessita ser
+representado igual que se escribio
+
+form-> es la etiqueta que englobaa nuestro formulario
+label-> sirve para escribir el nombre del campo a rellenar
+input-> sirve para crear un campo que permitire al usuario
+interactuar
+button-> crea un boton que permitira enviar formulario
+video-44
+datatime-local->fecha y hor, no funciona en firefox
+email-> se utiliza para introducir un email
+hidden-> campo oculto, puede contener valor pero no se mostrara
+month-> se utiliza para introducir un mes
+number-> se utiliza para valores numericos
+password-> se utiliza para contraseñas
+range-> se utiliza para establecer un rango
+reset-> se utiliza para sesetear el formulario
+search-> se utiliza para las barras de busqueda
+submit-> se utiliza para enviar el formulario
+tel-> se utiliza para introducir numeros telefonicos
+text-> valor por defecto
+time-> se utiliza para introducir una hora
+url-> se utiliza para introducir URLs
+weer-> se utiliza para introducir el numero de semana del año
+
+
+video-46
+radio-> permite seleccionar una unica opcion de una lista de
+opciones relacionadas.
+
+checkbox-> permite seleccionar varias opciones de una lista
+de opciones relacionadas
+
+delect-> crea una lista de opciones donde podemos
+seleccionar una o varias opciones
+
+video-50
+datalist->
+
+cada opcion ira dentro de una etiqueta<option></option>
+
+fieldset-> se utiliza para qgrupar elementos dentro de un 
+formulario
+
+legend-> representa una etiqueta para el contenido del
+fieldset
+
+file-> este input se utiliza para cargar archivos y 
+enviarlos desde un formulario
+meter-> representa un valor dentro de un rengo conocido
+progress-> representa el progreso de una tarea
+textarea-> se utiliza para introducir texto en un formulario
+
+placeholder-> da una pista de la que el usuario tiene que
+introducir
+required-> hace que un campo sea obligatorio
+readonly-> hace que un campo sea de sola lectura
+
+min-max-> establece el minimo y maximo de un campo numerico
+
+maxlenght - mminlenght -> establece el minimo y maximo de 
+caracteres de un campo de texto
+
+selected-> equivale a checked en los select, sirve para
+establecer una opcion por defecto
+
+disabled-> desactiva el campo, no se podra escribir en el
+autofocus
+img->la uvicasion de la imagen y si no esta la imagen
+picture->video 60
+
+video-27->para los puntos
+
+video-64->etiqueta figure
+figcation->pie para la imagen
+        -->

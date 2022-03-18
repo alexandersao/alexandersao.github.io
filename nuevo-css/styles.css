@@ -1,0 +1,129 @@
+/*
+
+selector de  hermano siguiente +
+selector de  hermano siguientes ~
+color:initial;al inicio
+color:inherit;herencia
+
+contenido
+borde 
+padding
+margin
+width
+height
+
+margin:
+
+margin-top:margen superior
+margin-right:margen derecha
+margin-bottom:margen inferior
+margin-left:margen izquierdo
+
+admite hasta 4 valores que van en el orden de las 
+agujas del reloj.
+4 valores->margin:top right bottom left;
+3 valores->margin:top left/ right bottom;
+2 valores_>margin:top/bottom left/right;
+1 valor->margin:top/right/botton/left;
+
+padding:
+
+padding-top:margen superior
+padding-right:margen derecha
+padding-bottom:margen inferior
+padding-left:margen izquierdo
+
+
+admite hasta 4 valores que van en el orden de las 
+agujas del reloj.
+4 valores->padding:top right bottom left;
+3 valores->padding:top left/ right bottom;
+2 valores_>padding:top/bottom left/right;
+1 valor->padding:top/right/botton/left;
+
+border:
+
+es la propiedad que nos permite modificar el 
+borde de la caja
+es un shorthand(propiedad abreviada) que agrupa
+3 propiedades
+
+border-width:ancho del borde
+border-top-width
+border-right-width
+border-bottom-width
+border-left-width
+
+border-style:estilo del borde
+border-top-style
+border-right-style
+border-bottom-style
+border-left-style
+
+border-color:color del borde
+border-top-color
+border-right-color
+border-bottom-color
+border-left-color
+
+*{
+    box-sizing:border-box;
+
+}
+imagenes
+
+acepta 4 posibles valores
+text-align:left;->alinea el contenido a la izquierda
+
+text-align:left;alinea el contenido a la derecha
+
+text-align:center;alinea el contenido al centro
+
+text-align:justify;->alinea el contenido de forma justificada. no es
+recomendable usarlo.
+{box-shadow:5px 5px red,
+
+}
+
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: mediumblue;
+    width: 100%;
+    height: 400px ;
+    position: relative;
+}
+.vi{
+    background-color: aqua;
+    text-align: center;
+    width: 450px;
+    height: 60px;
+    border: 5px solid rgb(0, 225, 255);
+    border-radius: 10px;
+    position: absolute;
+    left: 200px;
+    margin-top: 400px;
+}
+.so{
+    border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+    padding: 10px; /*espacio alrededor texto*/
+    background-color: #2e518b; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 50px; /*bordes redondos*/
+    position: absolute;
+    left: -200px; 
+    margin-top: 500px;
+}
+.im{
+    width: 800px;
+    position: absolute;
+left: 700px;
+top: 150px;
+}
